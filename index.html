@@ -1,0 +1,129 @@
+<!DOCTYPE html> <!--serve para informar o navegador que se trata de um documento do tipo HTML5-->
+<html lang="pt-br"> <!--Todo nosso conteúdo deve estar dentro desse elemento-->
+    <head> <!--onde ficarão os meta dados-->
+        <meta charset="utf-8"> <!--Esse meta dado, por exemplo, faz com que aceite acentos nas palavras que irão aparecer na tela-->
+        <title>Minha página</title> <!--Nome que fica na aba-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body> <!--vai definir o corpo do meu documento-->
+        
+        <nav> <!--menu de navegação-->
+            <p>Minha página</p>
+            <ul> <!--permite a inserção de uma lista de itens-->
+                <li>
+                    <a href="#servicos">Serviços</a>
+                </li> <!--itens da lista-->
+                <li>
+                    <a href="#clientes">Clientes</a> <!--o comando a é um hiperlink. O # indica pro código que o que vem depois é um ID de algum outro elemento do site-->
+                </li> 
+                <li>
+                    <a href="#parceiros">Parceiros</a>
+                </li>
+                <li>
+                    <a href="#time">Time</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>        
+    
+        <header>
+            <h1>Minha página</h1> <!--elemento h1 é o título que irá aparece na minha página, tem vários níveis, podem ser: h1, h2 ou h3-->
+            <p> <!--contanto que continue na mesma tag paragrafo, o texto vai continuar igual. Se quiser outra linha, basta criar outra tag p-->
+                Oferecemos os desenvolvimentos dos melhores 
+                sites e apps para sua empresa
+            </p>
+        </header>
+
+        <section id="servicos"> <!--Utilizado para separar seções de conteúdos, nesse exemplo uma seção para cada serviço ex: serviços, clientes...-->
+            <h2>Serviços</h2>
+            <p>Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+                Oferecemos os melhores serviços em 
+                desenvolvimento de sites e aplicativos
+            </p>
+            <div> <!--responsável por fazer uma divisão no código, e assim deixá-lo mais organizado-->
+                <img src="img/comida.jpeg" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/ft1.jpeg" class="img_padrao">
+            </div>
+            
+            </section>
+
+        <section id="clientes">
+            <h2>Clientes</h2>
+            <p>Nossos clientes ficaram muito 
+                satisfeitos com nossos serviços
+            </p>
+
+            <div>
+                <img src="img/gente.jpeg" class="img_padrao">
+            </div>
+            <div>
+                <img src="img/gente2.jpeg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <h2>Parceiros</h2>
+            <p>
+                Nossos parceiros nos ajudam a entregar 
+                as melhores soluções para os nossos clientes
+            </p>
+            <div>
+                <!--<a href="https://www.google.com/search?client=opera&q=nada+importante&sourceid=opera&ie=UTF-8&oe=UTF-8"> Link externo para um site quando clicar na foto-->
+                <a href="https://www.google.com/search?client=opera&q=nada+importante&sourceid=opera&ie=UTF-8&oe=UTF-8" target="_blank"> <!--Abrir o link da foto numa aba nova do navegador-->    
+                    <img src="img/dog.jpeg" class="img_padrao">
+                </a>
+            </div>
+        </section>
+
+        <section id="time">
+            <h2>Time</h2>
+            <p>
+                Nosso time trabalha com muita qualidade e empenho para entregar 
+            o melhor produto para nossos clientes
+            </p>
+
+            <div>
+                <img src="img/lupa.jpeg" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>
+                Entre em contato com nossa equipe
+            </p>
+
+            <div>
+                <img src="img/email.jpeg" class="logo">
+                <p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p>
+            </div>
+
+            <div>
+                <img src="img/fone.png" class="logo">
+                <p><a href="tel:9999999999">(99) 9999-9999</a></p>
+            </div>
+        </section>
+    
+        <footer> <!--definir o rodapé da página (footer)-->
+            <p>Desenovolvido por mim</p>
+        </footer>
+        
+    </body>
+
+</html>

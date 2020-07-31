@@ -1,0 +1,40 @@
+body {
+    background: rgb(29, 154, 185);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header{
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: fantasy;
+    margin-left: 400px;
+}
+
+h2{
+    font-family: fantasy;
+    margin-left: 450px;
+}
+
+p{
+    font-size: 18px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+/*img{ -Nesse caso eu dei uma caracteristica para um elemento
+    margin-bottom: 20px;
+}*/
+.img_padrao{ /*Nesse caso foi para um classe*/
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.logo{
+    width: 30px;
+}
